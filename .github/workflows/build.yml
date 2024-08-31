@@ -1,0 +1,9 @@
+Name: Build for the backend
+on:
+  Pull: main
+
+Jobs:
+  run-on: ubuntu-latest
+  Steps:
+    Name: run dependencies
+  
