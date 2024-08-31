@@ -15,7 +15,7 @@ const Login = ({ setUser }) => {
             <h2>Login</h2>
             <input 
                 type="text" 
-                placeholder="Enter your name" 
+                placeholder="Please enter your name" 
                 value={username} 
                 onChange={(e) => setUsername(e.target.value)} 
             />
