@@ -21,7 +21,7 @@ const Cart = ({ cart, clearCart }) => {
                     </li>
                 ))}
             </ul>
-            <button onClick={placeOrder}>Place Order</button>
+            <button onClick={placeOrder}>Place Order O</button>
         </div>
     );
 };
