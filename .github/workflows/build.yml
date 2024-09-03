@@ -25,6 +25,9 @@ jobs:
       run: sudo yarn install
     - name: install dependencies npm
       run:  sudo npm install axios
+    - name: Fix permissions
+      run: sudo chown -R $USER:$USER /home/runner/work/ecommerce-plaform/ecommerce-plaform
+
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
