@@ -23,6 +23,8 @@ jobs:
     - uses: actions/checkout@v4
     - name: install dependencies
       run: sudo yarn install
+    - name: install dependencies npm
+      run: sudo npm install | npm install axios | 
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
