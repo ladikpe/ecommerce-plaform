@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: install dependencies
-      run: npm install
+      run: sudo npm install
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
